@@ -1,0 +1,136 @@
+@media (min-width: 768px) {
+    .display-4 {
+      font-size: 3rem;
+    }
+}
+
+:root {
+    --dark: #070707;
+    --white: #f6f6f6;
+    --red: #DF2935;
+    --green:#66A182;
+    --bg:#FFFFFF;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+.flex-auto {
+    flex: 0 0 auto;
+}
+
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-size: 2.25rem;
+  }
+  
+  .blog-header-logo:hover {
+    text-decoration: none;
+  }
+
+  
+.display-4 {
+    font-size: 2.5rem;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  }
+
+.icons-header{
+    color: var(--dark);
+    scale: 2;
+    /* width: 35px; */
+    /* height: 10px; */
+    margin-left: 20px;
+}
+
+.icons-header:after{
+    /* transition: .3s; */
+    color:var(--red);
+}
+.icons-header:hover{
+  transition: .3s;
+  color:var(--red);
+}
+
+.icons-header.active{
+  color:var(--red);
+}
+
+.icons-card{
+    color: var(--dark);
+    scale: 2;
+    /* width: 35px; */
+    /* height: 10px; */
+    margin: 20px 10px 0 0;
+}
+
+.icons-card:hover{
+    transition: .3s;
+    color:var(--red);
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[id="floatingPassword2"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  /* чтобы убрать стрелочки у input type number */
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+      -webkit-appearance: none; 
+  }
+  
+  input[type='number'],
+  input[type="number"]:hover,
+  input[type="number"]:focus {
+      appearance: none;
+      -moz-appearance: textfield;
+  }
+  /* чтобы убрать стрелочки у input type number */
+
+.header-admin{
+  text-decoration: none; 
+  color: black;
+}
+.header-admin.active{
+  text-decoration: underline; 
+  color: #DF2935;
+}
+
+.header-admin:hover{
+  transition: .1s;
+  text-decoration: underline;
+  color: #DF2935;
+  
+}
